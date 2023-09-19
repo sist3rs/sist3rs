@@ -115,7 +115,7 @@
   }
 
   .mapa-sisters {
-    height: 320px;
+    height: 280px;
     width: 70%;
     border-radius: 12%;
     justify-content: center;
@@ -149,7 +149,7 @@
   }
 
   .form-title {
-    font-size: 20px;
+    font-size: 19px;
     margin: 10px auto;
   }
 

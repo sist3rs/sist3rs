@@ -6,9 +6,8 @@ const Footer = () => {
   return (
     <footer>
       <div className="social-icons">
-        <a
-          href="mailto:sist3rsmendoza@gmail.com"
-          target="_blank"
+      <a
+          href="#contacto"
           rel="noopener noreferrer">
           <AiOutlineMail />
         </a>

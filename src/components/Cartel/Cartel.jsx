@@ -5,7 +5,7 @@ const Cartel = () => {
     <div id="cartel" className="cartel">
       <div className="cartel-left">
         <h2>
-          <bold>10%</bold> OFF
+          <strong>10%</strong> OFF
         </h2>
         <h3>EN TU PRÓXIMA COMPRA</h3>
       </div>

@@ -6,34 +6,37 @@ const Contacto = () => {
       <article className="article top-section">
         <div className="img-container">
           <img
-            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICAgIBwcHBwcHBwoHBwcHBw8ICQcKFREWIhURHxMYHSggGBolGx8fITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDisZFRkrKysrLSstLS0rNys3LS0rLS03LSsrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDBv/EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgcF/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/APfArkr2DABRQAAAAEAAFQQUAAAAACiKoMrUAqLUBAFEAARSqM1mtVmrFAFV2EVhlRFQFQFUQAVAFEAUABQEBFQAFAQAoJQEEUAQAAAolUSs1qs1YoAquqpBhlVQQUFBIoAAAigAACiAKIAAAFolAQAEEUVAAAARaiqlZrVZqgAo6KIwiqgCtMrqCiGgoigAAAAAAAAAgGoqAICggAAAAKFQoKlZrTNUBBR2QGQVBEVUAVUEBUAU1AGk0QGjWQGjWVAQAEVFBFQABQAAABABUrNarNUQBR1AZUARKKgIoAAAKIAoACoAAAAgAAIKgACgAKIqAAihWa0zSCAKOioMqoEAAGQBBRAFBAUAAAAAAEBUAABQAAAFQAEAUGa0zSDIoo6CKyoqAKAMgAACAAAAAAAAAAAAoAAAAAgoAKgCiJVSqjIAroIqCiKgoiiAAgAAAAAAAAAAAAAAAKCAAICoCggCjNaZqiAKjYDKqAIqoIKIoAAgAAAAAAAAAAAACCgIAAoIAoAolZrVZIIAqOgggqoILFQBQEFEAURRAAAAAAAAAEABBQBQSlAARVAQCsrUqwQBRpdBlF0AF0UQDQAFARQANADQABQEFBE1FBUNAENAE00FAQAQFUZtBUTQFH//2Q=="
-            alt="dummy"
+            src="src/components/Nosotros/img/07.png"
+            alt="img_sisters"
           />
         </div>
         <div className="nosotros-text-container">
           <h3>M1SIÓN</h3>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
-            voluptate minus omnis suscipit iure blanditiis culpa praesentium
-            aliquid consequatur, fugit aperiam a, ad autem nulla, ex aliquam
-            necessitatibus voluptatum officia?
+            Nuestra misión es proporcionar a las mujeres de Mendoza una amplia
+            gama de opciones de ropa de alta calidad, mientras fomentamos la
+            igualdad de género, el empoderamiento femenino y la inclusión de
+            todas las personas. Nos comprometemos a desafiar los estándares de
+            belleza establecidos, celebrar la diversidad y crear un espacio
+            acogedor donde todas nuestras clientas se sientan valoradas y
+            representadas.
           </p>
         </div>
       </article>
       <article className="article bottom-section">
         <div className="img-container">
           <img
-            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICAgIBwcHBwcHBwoHBwcHBw8ICQcKFREWIhURHxMYHSggGBolGx8fITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDisZFRkrKysrLSstLS0rNys3LS0rLS03LSsrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDBv/EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgcF/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/APfArkr2DABRQAAAAEAAFQQUAAAAACiKoMrUAqLUBAFEAARSqM1mtVmrFAFV2EVhlRFQFQFUQAVAFEAUABQEBFQAFAQAoJQEEUAQAAAolUSs1qs1YoAquqpBhlVQQUFBIoAAAigAACiAKIAAAFolAQAEEUVAAAARaiqlZrVZqgAo6KIwiqgCtMrqCiGgoigAAAAAAAAAgGoqAICggAAAAKFQoKlZrTNUBBR2QGQVBEVUAVUEBUAU1AGk0QGjWQGjWVAQAEVFBFQABQAAABABUrNarNUQBR1AZUARKKgIoAAAKIAoACoAAAAgAAIKgACgAKIqAAihWa0zSCAKOioMqoEAAGQBBRAFBAUAAAAAAEBUAABQAAAFQAEAUGa0zSDIoo6CKyoqAKAMgAACAAAAAAAAAAAAoAAAAAgoAKgCiJVSqjIAroIqCiKgoiiAAgAAAAAAAAAAAAAAAKCAAICoCggCjNaZqiAKjYDKqAIqoIKIoAAgAAAAAAAAAAAACCgIAAoIAoAolZrVZIIAqOgggqoILFQBQEFEAURRAAAAAAAAAEABBQBQSlAARVAQCsrUqwQBRpdBlF0AF0UQDQAFARQANADQABQEFBE1FBUNAENAE00FAQAQFUZtBUTQFH//2Q=="
-            alt="dummy"
+            src="src/components/Nosotros/img/01.png"
+            alt="img_local"
           />
         </div>
         <div className="nosotros-text-container">
           <h3>V1SIÓN</h3>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
-            voluptate minus omnis suscipit iure blanditiis culpa praesentium
-            aliquid consequatur, fugit aperiam a, ad autem nulla, ex aliquam
-            necessitatibus voluptatum officia?
+            Nuestra visión es ser reconocidas como la tienda de moda femenina en
+            Mendoza, que ofrece una experiencia única para sus clientas,
+            seleccionando prendas de calidad que reflejen su estilo y resaltando
+            la individualidad de su belleza fuera de todo cànon o estereotipo.
           </p>
         </div>
       </article>
