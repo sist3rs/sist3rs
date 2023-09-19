@@ -1,0 +1,32 @@
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1b928e;
+  height: 82px;
+}
+
+.social-icons {
+  font-size: 30px;
+}
+
+.social-icons a {
+  color: #fdfdfd;
+  text-decoration: none;
+  margin: 10px;
+}
+
+@media (min-width: 767px) {
+  footer {
+    width: 1440px;
+    height: 169px;
+    margin: 0px auto;
+  }
+
+  .social-icons {
+    font-size: 75px;
+  }
+
+  .social-icons a {
+    margin: 35px;
+  }
+}

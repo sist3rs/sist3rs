@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'Lovelo-Black';
+  src: local('Lovelo-Black'),
+    url(../../assets/fonts/Lovelo_Black.otf) format('truetype');
+}
+
+.rectangle {
+  background-color: #0bafab;
+  height: 658px;
+  width: 1440px;
+}
+
+.mapa-sisters {
+  height: 358px;
+  width: 494px;
+  border-radius: 12%;
+  margin-top: 102px;
+  margin-left: 162px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 480px;
+  padding: 10px;
+  margin-left: -430px;
+}
+
+.title {
+  color: #f5f5f5;
+  font-family: 'Lovelo-Black', Helvetica;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38.4px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.address {
+  color: #f5f5f5;
+  margin-top: 12px;
+  font-family: 'Lovelo-Black';
+  font-size: 17px;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  font-style: normal;
+}
+
+.form-container {
+  margin-top: 98px;
+  margin-left: 210px;
+}
+
+.form-title {
+  color: #ffffff;
+  font-family: 'Lovelo-Black', Helvetica;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38.4px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  color: #f5f5f5;
+}
+
+.form-control {
+  background-color: #f5f5f5;
+}
+
+.message-textarea {
+  width: 455px;
+  height: 205px;
+}
+
+.form-group ::placeholder {
+  color: #999472;
+  font-family: 'Lovelo-Black', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120.00000476837158%;
+  white-space: nowrap;
+}
+
+.btn {
+  background-color: #1b928e;
+  color: rgba(253, 253, 253, 1);
+  font-family: 'Lovelo-Black', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  margin-left: 350px;
+}
+
+@media (max-width: 767px) {
+  .rectangle {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-container {
+    margin: auto;
+  }
+
+  .mapa-sisters {
+    height: 320px;
+    width: 70%;
+    border-radius: 12%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 90px;
+  }
+
+  .title {
+    color: #f5f5f5;
+    font-family: 'Lovelo-Black', Helvetica;
+    font-size: 20px;
+  }
+
+  .address {
+    font-family: 'Lovelo-Black', Helvetica;
+    font-size: 14px;
+  }
+
+  .d-flex {
+    flex-wrap: wrap;
+  }
+
+  .form-container {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .message-textarea {
+    width: 100%;
+  }
+
+  .form-title {
+    font-size: 20px;
+    margin: 10px auto;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    font-size: 12px;
+    font-style: unset;
+    padding: 10px 16px 10px 16px;
+    line-height: 14.4px;
+    margin: 0 auto 15px calc(76.5vw - 100px);
+  }
+}

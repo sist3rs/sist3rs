@@ -1,0 +1,79 @@
+.cartel {
+  position: absolute;
+  background-color: #fdfdfd;
+  width: 50%;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border-radius: 15px;
+  display: flex;
+  width: 270px;
+  height: 146px;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.cartel-left {
+  background-color: #1b928e;
+  border-radius: 15px 0px 0px 15px;
+  color: #fdfdfd;
+  font-family: 'Lovelo-Black', Helvetica;
+  min-width: 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartel-left h3 {
+  color: #fdfdfd;
+  font-size: 10px;
+}
+
+.cartel-right {
+  background-color: #fdfdfd;
+  border-radius: 0px 15px 15px 0px;
+  color: #1b928e;
+  font-family: 'Lovelo-Black', Helvetica;
+  min-width: 135px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartel-right p {
+  font-size: 9px;
+}
+
+@media (min-width: 767px) {
+  .cartel {
+    top: 110%;
+    width: 848px;
+    height: 485px;
+  }
+
+  .cartel-left {
+    min-width: 424px;
+  }
+
+  .cartel-left h2 {
+    font-size: 78px;
+  }
+
+  .cartel-left h3 {
+    font-size: 25px;
+  }
+
+  .cartel-right {
+    min-width: 424px;
+    padding: 50px;
+  }
+
+  .cartel-right p {
+    font-size: 30px;
+  }
+}
