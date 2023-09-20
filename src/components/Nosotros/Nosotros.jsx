@@ -1,4 +1,6 @@
 import './styles.css';
+import misionImg from './img/misionImg.png'
+import localImg from './img/localImg.png'
 
 const Contacto = () => {
   return (
@@ -6,7 +8,7 @@ const Contacto = () => {
       <article className="article top-section">
         <div className="img-container">
           <img
-            src="src/components/Nosotros/img/07.png"
+            src={misionImg}
             alt="img_sisters"
           />
         </div>
@@ -26,7 +28,7 @@ const Contacto = () => {
       <article className="article bottom-section">
         <div className="img-container">
           <img
-            src="src/components/Nosotros/img/01.png"
+            src={localImg}
             alt="img_local"
           />
         </div>

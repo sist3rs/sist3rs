@@ -1,5 +1,5 @@
 import logoMobile from '../NavBar/logo/logoMobile.png';
-import logo from '../NavBar/logo/logo1.png';
+import logoDesktop from '../NavBar/logo/logoDesktop.png';
 import menuIcon from '../NavBar/logo/menuIcon.png';
 import './styles.css';
 
@@ -16,7 +16,7 @@ export const NavBar = () => {
       <div className="d-flex justify-content-between">
         <a className="navbar-brand" href="#cartel">
           <img
-            src={logo}
+            src={logoDesktop}
             alt="Logo"
             width="335"
             height="107"
