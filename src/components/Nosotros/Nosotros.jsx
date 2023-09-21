@@ -13,7 +13,7 @@ const Contacto = () => {
           />
         </div>
         <div className="nosotros-text-container">
-          <h3>M1SIÓN</h3>
+          <h3>#gustateComoSos</h3>
           <p>
             Nuestra misión es proporcionar a las mujeres de Mendoza una amplia
             gama de opciones de ropa de alta calidad, mientras fomentamos la
@@ -33,7 +33,7 @@ const Contacto = () => {
           />
         </div>
         <div className="nosotros-text-container">
-          <h3>V1SIÓN</h3>
+          <h3>#todasSomosModelos</h3>
           <p>
             Nuestra visión es ser reconocidas como la tienda de moda femenina en
             Mendoza, que ofrece una experiencia única para sus clientas,
