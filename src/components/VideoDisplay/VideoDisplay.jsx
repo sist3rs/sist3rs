@@ -1,4 +1,4 @@
-import videoSisters from '../VideoDisplay/video/sisters.mp4';
+import videoSisters from '../VideoDisplay/video/Sist3rs.mp4';
 import './styles.css';
 
 export const VideoDisplay = () => {
