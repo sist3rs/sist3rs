@@ -1,4 +1,4 @@
-import videoSisters from '../VideoDisplay/video/Sist3rs.mp4';
+import videoSisters from '../VideoDisplay/video/sisters.mp4';
 import './styles.css';
 
 export const VideoDisplay = () => {
@@ -6,6 +6,9 @@ export const VideoDisplay = () => {
     <video
       src={videoSisters}
       controls
+      autoplay
+      muted
+      playsinline
       className="video-player container-fluid d-flex"
     />
   );
