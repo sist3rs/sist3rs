@@ -3,7 +3,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 480px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -103,12 +102,12 @@ img {
 
 p {
     font-family: Lovelo-Black,Helvetica;
-  display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-  color: rgb(0, 0, 0);
+ text-align: center;
 
+}
+
+a {
+  color: rgb(30,40,30);
+  text-decoration:none;
 }
 
