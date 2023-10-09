@@ -13,9 +13,9 @@
 .mapa-sisters {
   height: 358px;
   width: 494px;
-  border-radius: 12%;
+  border-radius: 8%;
   margin-top: 102px;
-  margin-left: 162px;
+  margin-left: 5vh;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
