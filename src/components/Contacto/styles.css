@@ -20,7 +20,7 @@
 }
 
 .text-container {
-  
+  margin-left: 10vh;
   flex-direction: column;
   align-items: center;
   
