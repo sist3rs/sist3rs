@@ -152,7 +152,7 @@ const Catalog = () => {
        <p class="catalogo-link"><a href="https://photos.google.com/share/AF1QipODeyyXUrgw2Ymspo8rj46Ep11UMrkFgtYfMeN44ZWkd60L0x-_AqGUGTGn0-UWfA?key=NHNpdzRNZEI2OGtmY2RoVzFZODZtWU1JLS1rS3Rn" target="_blank">¡Visitá nuestro catálogo actualizado!</a>
        </p>
       <br />
-      <p>
+      <p class="catalogo-link">
       Nuestros medios de pago son Mercado pago, efectivo, transferencia y tarjetas bancarias con hasta 3 cuotas sin interés.   
       </p>
       </div>
