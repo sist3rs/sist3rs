@@ -156,10 +156,10 @@ const Catalog = () => {
            
               
              
-              <p className="card-price"> 
+              <p> 
              <a href="https://photos.google.com/share/AF1QipODeyyXUrgw2Ymspo8rj46Ep11UMrkFgtYfMeN44ZWkd60L0x-_AqGUGTGn0-UWfA?key=NHNpdzRNZEI2OGtmY2RoVzFZODZtWU1JLS1rS3Rn" target="_blank">¡Visitá nuestro catálogo actualizado!</a></p>
              </p>
-            
+      
           
         
       </div>
