@@ -15,13 +15,9 @@ const Contacto = () => {
         <div className="nosotros-text-container">
           <h3>#gustateComoSos</h3>
           <p>
-            Nuestra misión es proporcionar a las mujeres de Mendoza una amplia
-            gama de opciones de ropa de alta calidad, mientras fomentamos la
-            igualdad de género, el empoderamiento femenino y la inclusión de
-            todas las personas. Nos comprometemos a desafiar los estándares de
-            belleza establecidos, celebrar la diversidad y crear un espacio
-            acogedor donde todas nuestras clientas se sientan valoradas y
-            representadas.
+            Somos Gise y Jime, hermanas y socias!
+Te ofrecemos múltiples opciones en moda urbana de calidad, para que encuentres dentro de tu estilo, la mejor versión de vos. 
+Estamos comprometidas con desafiar la hegemonía de cuerpos y los estereotipos. Celebramos la diversidad y promovemos la identificación de la belleza en cada mujer. 
           </p>
         </div>
       </article>
@@ -35,10 +31,9 @@ const Contacto = () => {
         <div className="nosotros-text-container">
           <h3>#todasSomosModelos</h3>
           <p>
-            Nuestra visión es ser reconocidas como la tienda de moda femenina en
-            Mendoza, que ofrece una experiencia única para sus clientas,
-            seleccionando prendas de calidad que reflejen su estilo y resaltando
-            la individualidad de su belleza fuera de todo cànon o estereotipo.
+            Somos Gise y Jime, hermanas y socias!
+Te ofrecemos múltiples opciones en moda urbana de calidad, para que encuentres dentro de tu estilo, la mejor versión de vos. 
+Estamos comprometidas con desafiar la hegemonía de cuerpos y los estereotipos. Celebramos la diversidad y promovemos la identificación de la belleza en cada mujer. .
           </p>
         </div>
       </article>
