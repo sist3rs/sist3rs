@@ -70,8 +70,7 @@ img {
 
 @media (min-width: 767px) {
   .catalog {
-    width: 1440px;
-    height: 1350px;
+    width: 100%;
     margin: 0px auto;
     padding-bottom: 42px;
   }
@@ -101,8 +100,9 @@ img {
 }
 
 p {
+  padding-left: 42px;
     font-family: Lovelo-Black,Helvetica;
- text-align: center;
+
 
 }
 
