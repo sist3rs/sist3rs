@@ -65,7 +65,10 @@ export const Contacto = () => {
         <h2 className="title">Dónde Estamos</h2>
         <p className="address">
           ALTE. BROWN 1520, GODOY CRUZ, MENDOZA <br />
-          lunes a viernes de 10hs a 16hs
+lunes a viernes de 17 a 21hs  <br />        
+miércoles a sábado 10 a 14hs <br />  
+          ¡También podemos concertar cita a tu conveniencia!
+
         </p>
       </div>
 
@@ -81,6 +84,15 @@ export const Contacto = () => {
               placeholder="nombre y apellido"
             />
             {errors.name && <p className="error">{errors.name}</p>}
+          </div>
+          <div className="form-group">
+            <input
+              type="text"
+              className="form-control"
+              id="telephone"
+              name="user_telephone"
+              placeholder="celular de contacto"
+            />
           </div>
           <div className="form-group">
             <input
