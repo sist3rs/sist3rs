@@ -145,12 +145,40 @@ const Catalog = () => {
   ];
 
   return (
+<article className="article top-section">
+        <div className="img-container">
+          <img
+            src={misionImg}
+            alt="img_sisters"
+          />
+        </div>
+        <div className="nosotros-text-container">
+          <h3>Catálogo</h3>
+          <p>
+           
+             <a href="https://photos.google.com/share/AF1QipODeyyXUrgw2Ymspo8rj46Ep11UMrkFgtYfMeN44ZWkd60L0x-_AqGUGTGn0-UWfA?key=NHNpdzRNZEI2OGtmY2RoVzFZODZtWU1JLS1rS3Rn" target="_blank">¡Visitá nuestro catálogo actualizado!</a></p>
+          
+        </div>
+      </article>
+    
     <div className="catalog">
       <h2 id="catalogo" className="catalog-title">
         CATÁLOGO
       </h2>
-      <p><a href="https://photos.google.com/share/AF1QipODeyyXUrgw2Ymspo8rj46Ep11UMrkFgtYfMeN44ZWkd60L0x-_AqGUGTGn0-UWfA?key=NHNpdzRNZEI2OGtmY2RoVzFZODZtWU1JLS1rS3Rn" target="_blank">¡Visitá nuestro catálogo actualizado!</a></p>
+      <div className="catalog-container">
+        <div className="catalog-cards">
+          {products.map((product) => (
+            <div key={product.id} className="card">
+              <div className="card-image">
+                <img src={product.image} alt={product.name} />
+              </div>
+              <h3 className="card-name">{product.name}</h3>
+              <p className="card-price">{product.price}</p>
+            </div>
+          ))}
+        </div>
       </div>
+    </div>
   );
 };
 
