@@ -5,9 +5,9 @@ export const VideoDisplay = () => {
   return (
     <video
       src={videoSisters}
-      controls
-      autoplay
+      controls="false" autoplay="autoplay"
       muted
+      loop
       playsinline
       className="video-player container-fluid d-flex"
     />
