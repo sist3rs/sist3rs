@@ -145,25 +145,12 @@ const Catalog = () => {
   ];
 
   return (
-    
     <div className="catalog">
       <h2 id="catalogo" className="catalog-title">
         CATÁLOGO
       </h2>
-      <div className="catalog-container">
-        
-          
-           
-              
-             
-              <p> 
-             <a href="https://photos.google.com/share/AF1QipODeyyXUrgw2Ymspo8rj46Ep11UMrkFgtYfMeN44ZWkd60L0x-_AqGUGTGn0-UWfA?key=NHNpdzRNZEI2OGtmY2RoVzFZODZtWU1JLS1rS3Rn" target="_blank">¡Visitá nuestro catálogo actualizado!</a></p>
-             </p>
-      
-          
-        
+      <p><a href="https://photos.google.com/share/AF1QipODeyyXUrgw2Ymspo8rj46Ep11UMrkFgtYfMeN44ZWkd60L0x-_AqGUGTGn0-UWfA?key=NHNpdzRNZEI2OGtmY2RoVzFZODZtWU1JLS1rS3Rn" target="_blank">¡Visitá nuestro catálogo actualizado!</a></p>
       </div>
-    </div>
   );
 };
 
