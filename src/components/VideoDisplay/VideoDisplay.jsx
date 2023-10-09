@@ -5,7 +5,7 @@ export const VideoDisplay = () => {
   return (
     <video
       src={videoSisters}
-      controls="false" autoplay="autoplay"
+      autoplay="autoplay"
       muted
       loop
       playsinline
