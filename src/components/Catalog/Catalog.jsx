@@ -149,20 +149,8 @@ const Catalog = () => {
       <h2 id="catalogo" className="catalog-title">
         CATÁLOGO
       </h2>
-      <div className="catalog-container">
-        <div className="catalog-cards">
-          {products.map((product) => (
-            <div key={product.id} className="card">
-              <div className="card-image">
-                <img src={product.image} alt={product.name} />
-              </div>
-              <h3 className="card-name">{product.name}</h3>
-              <p className="card-price">{product.price}</p>
-            </div>
-          ))}
-        </div>
+      <p><a href="https://photos.google.com/share/AF1QipODeyyXUrgw2Ymspo8rj46Ep11UMrkFgtYfMeN44ZWkd60L0x-_AqGUGTGn0-UWfA?key=NHNpdzRNZEI2OGtmY2RoVzFZODZtWU1JLS1rS3Rn" target="_blank">¡Visitá nuestro catálogo actualizado!</a></p>
       </div>
-    </div>
   );
 };
 
